@@ -4,7 +4,8 @@ import ReactDOM from "react-dom/client";
 
 // include your styles into the webpack bundle
 import "../styles/index.css";
-
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 //import your own components
 import Home from "./component/home.jsx";
 

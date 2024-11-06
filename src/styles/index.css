@@ -1,12 +1,232 @@
 
-/* 
+.navbar {
+    background-color: #007bff;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-brand {
+    color: pink;
+  }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+  .navbar-logo img {
+    width: 60px;  
+    height: auto;
+  }
 
-*/
+  .navbar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+
+  .navbar-menu {
+    display: flex;
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-list li {
+    margin-left: 1rem;
+  }
+  
+  .navbar-list a {
+    color: pink;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+  }
+  
+  .navbar-list a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .navbar-toggle {
+      display: block;
+    }
+  
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbar-menu.active {
+      display: flex;
+    }
+  
+    .navbar-list {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbar-list li {
+      margin: 0.5rem 0;
+    }
+  }
+  .jumbotron {
+    background-size: cover;
+    background-position: center;
+    height: 781px; 
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+
+  .jumbotron-content {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    color:white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px pink;
+    padding: 20px;
+  }
+  
+  .feedback-carousel {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .carousel-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-text {
+    max-width: 400px;
+  }
+  
+  .feedback {
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .slick-dots li button {
+    background-color: #ff66b2;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    opacity: 0.7;
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #ff3385;
+    opacity: 1;
+  }
+  .Jumbotron .CardBite .FeedbackCarousel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }  
+
+.gallery {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .gallery-item {
+    padding: 10px;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .slick-dots li button {
+    background-color: pink;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #ff3385;
+  }
+  
+  .slick-prev, .slick-next {
+    font-size: 20px;
+    color: #ff3385;
+    z-index: 1;
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    color: #ff66b2;
+  }
+
+  .feedback-carousel {
+    margin-bottom: 80px;
+  }
