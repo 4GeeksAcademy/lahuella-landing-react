@@ -33,7 +33,7 @@ const NavBar = () => {
               <a className="nav-link" href="#menu">Ver Menu</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#shop">Haz Tu Pedido</a>
+            <a className="nav-link" href="#Shop">Haz tu Pedido</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contacto</a>

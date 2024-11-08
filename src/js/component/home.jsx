@@ -5,7 +5,6 @@ import CardBite from "./CardBite";
 import Gallery from "./gallery";
 import FeedbackCarousel from "./FeedbackCarousel";
 import Footer from "./footer"
-
 const Home = () => {
 	return (
 		<div>
