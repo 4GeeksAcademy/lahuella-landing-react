@@ -5,19 +5,19 @@ const feedbackData = [
   {
     id: 1,
     name: 'Juan Pérez',
-    feedback: '¡Este producto cambió mi vida! Definitivamente lo recomendaría a todos.',
+    feedback: '¡Cambió mi vida! Definitivamente lo recomendaría a todos.',
     image: 'https://randomuser.me/api/portraits/men/1.jpg',
   },
   {
     id: 2,
     name: 'Ana García',
-    feedback: 'Excelente servicio y atención al cliente. Me encantó la experiencia.',
+    feedback: 'Excelente servicio y atención al cliente. Me encantó la comida.',
     image: 'https://randomuser.me/api/portraits/women/1.jpg',
   },
   {
     id: 3,
     name: 'Carlos López',
-    feedback: 'Muy buen producto, aunque me gustaría ver más opciones.',
+    feedback: 'Muy buen producto, ahora me siento mucho mejor.',
     image: 'https://randomuser.me/api/portraits/men/2.jpg',
   },
 ];
